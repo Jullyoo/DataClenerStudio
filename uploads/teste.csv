@@ -1,0 +1,14 @@
+nome,idade,email,salario,data_cadastro,cidade
+Julio,20,julio@email.com,3500,2025-01-10,Osasco
+ Ana ,22,ana@email.com,4200,10/02/2025,São Paulo
+Carlos,,carlos@email.com,5000,2025/03/15,Rio de Janeiro
+Maria,19,,2800,15-04-2025,Belo Horizonte
+Pedro,31,pedro@email.com,,2025-05-20,Curitiba
+Julio,20,julio@email.com,3500,2025-01-10,Osasco
+Fernanda,abc,fernanda@email.com,6200,2025-06-01,Salvador
+Lucas,27,lucas@email,4100,2025-07-05,Recife
+ ,40,semnome@email.com,7000,2025-08-10,Fortaleza
+Amanda,25,amanda@email.com,-1500,2025-09-15,Campinas
+Ricardo,130,ricardo@email.com,12000,2025-10-20,Santos
+Bianca,28,bianca@email.com,4500,,Florianópolis
+Thiago,29,thiago@email.com,4500,2025-11-01,

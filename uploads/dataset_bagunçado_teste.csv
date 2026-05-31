@@ -1,0 +1,201 @@
+﻿id,nome,idade,cidade,email,salario,data_cadastro,status
+,Beatriz,vinte e oito,,USER0@EMAIL.COM,,01-15-2025,ATIVO
+1.0,João,35,Curitiba,user1email.com,3200.5,data invalida,Ativo
+2.0,João,,SP,user2email.com,3200.5,15/01/2025,
+3.0,Beatriz,,Curitiba,user3@email.com,,2025-01-15,inativo
+4.0,Beatriz,35,,USER4@EMAIL.COM,2500,data invalida,ATIVO
+5.0,Julio,22,rio de janeiro,,,,ativo
+6.0,Pedro,,Rio de Janeiro,user6email.com,"R$ 5.000,00",,Inativo
+7.0,Carlos,35,rio de janeiro,user7email.com,"R$ 5.000,00",01-15-2025,Inativo
+8.0,Ana,22,,,"R$ 5.000,00",15/01/2025,inativo
+9.0,Julio,35,sao paulo,,"R$ 5.000,00",01-15-2025,
+10.0,Maria,,SP,,4500,2025-01-15,
+11.0,Julio,25,São Paulo,user11email.com,3200.5,15/01/2025,
+12.0,Maria,35,sao paulo,,3200.5,,ativo
+13.0,Fernanda,25,rio de janeiro,USER13@EMAIL.COM,,15/01/2025,ATIVO
+14.0,Lucas,vinte e oito,,,2500,15/01/2025,
+15.0,Beatriz,25,rio de janeiro,,4500,15/01/2025,
+16.0,Marcos,30,São Paulo,USER16@EMAIL.COM,"R$ 5.000,00",,ativo
+,Fernanda,22,Curitiba,,4500,,Inativo
+18.0,Carlos,25,Curitiba,,3200.5,2025-01-15,
+19.0,Beatriz,vinte e oito,SP,,,01-15-2025,
+20.0,Lucas,25,SP,user20email.com,"R$ 5.000,00",2025-01-15,ativo
+21.0,Carlos,30,Curitiba,,2500,15/01/2025,ativo
+22.0,João,,Rio de Janeiro,user22email.com,"R$ 5.000,00",,ATIVO
+23.0,Maria,30,Curitiba,,2500,15/01/2025,inativo
+24.0,Marcos,vinte e oito,São Paulo,,"R$ 5.000,00",data invalida,Inativo
+25.0,Marcos,25,Rio de Janeiro,,"R$ 5.000,00",01-15-2025,inativo
+26.0,Julio,35,São Paulo,user26@email.com,3200.5,2025-01-15,ATIVO
+27.0,João,35,,user27email.com,3200.5,data invalida,inativo
+28.0,Fernanda,30,São Paulo,,,2025-01-15,ativo
+29.0,Pedro,30,,,"R$ 5.000,00",2025-01-15,
+30.0,Fernanda,30,,user30@email.com,4500,data invalida,
+31.0,Pedro,25,Rio de Janeiro,,,01-15-2025,Ativo
+32.0,Beatriz,,,,,2025-01-15,Inativo
+33.0,Fernanda,,sao paulo,user33email.com,4500,15/01/2025,ativo
+,Lucas,,SP,user34@email.com,4500,2025-01-15,Ativo
+35.0,João,25,Curitiba,USER35@EMAIL.COM,4500,01-15-2025,Inativo
+36.0,Pedro,,Rio de Janeiro,user36email.com,2500,15/01/2025,Ativo
+37.0,Pedro,35,Curitiba,user37email.com,4500,,ATIVO
+38.0,João,,Curitiba,,3200.5,2025-01-15,Ativo
+39.0,Maria,30,São Paulo,,2500,,Inativo
+40.0,Carlos,22,SP,user40email.com,3200.5,01-15-2025,Inativo
+41.0,Beatriz,,rio de janeiro,,4500,01-15-2025,ATIVO
+42.0,Fernanda,30,São Paulo,,"R$ 5.000,00",2025-01-15,
+43.0,Pedro,25,SP,,4500,15/01/2025,inativo
+44.0,Julio,vinte e oito,sao paulo,USER44@EMAIL.COM,"R$ 5.000,00",data invalida,ATIVO
+45.0,João,30,Rio de Janeiro,,3200.5,2025-01-15,
+46.0,Carlos,22,Curitiba,,,15/01/2025,ATIVO
+47.0,Beatriz,25,São Paulo,,,2025-01-15,Inativo
+48.0,Carlos,vinte e oito,sao paulo,,4500,2025-01-15,Ativo
+49.0,Carlos,,Curitiba,,4500,15/01/2025,ATIVO
+50.0,Ana,,Curitiba,,,15/01/2025,
+,Julio,25,Rio de Janeiro,USER51@EMAIL.COM,4500,2025-01-15,ATIVO
+52.0,Ana,30,rio de janeiro,,4500,15/01/2025,Ativo
+53.0,Fernanda,vinte e oito,Rio de Janeiro,user53email.com,2500,15/01/2025,ativo
+54.0,João,,sao paulo,,3200.5,15/01/2025,
+55.0,Maria,22,SP,user55@email.com,"R$ 5.000,00",01-15-2025,ATIVO
+56.0,Fernanda,22,rio de janeiro,,3200.5,data invalida,
+57.0,Pedro,35,São Paulo,user57email.com,3200.5,15/01/2025,Inativo
+58.0,Marcos,22,,user58@email.com,2500,01-15-2025,ATIVO
+59.0,Ana,30,,user59email.com,,2025-01-15,Inativo
+60.0,Lucas,vinte e oito,rio de janeiro,user60email.com,3200.5,15/01/2025,ATIVO
+61.0,Carlos,35,rio de janeiro,,4500,2025-01-15,ATIVO
+62.0,Marcos,30,Rio de Janeiro,,"R$ 5.000,00",01-15-2025,Inativo
+63.0,Pedro,vinte e oito,,USER63@EMAIL.COM,4500,,inativo
+64.0,João,vinte e oito,São Paulo,,4500,01-15-2025,ativo
+65.0,Carlos,,São Paulo,user65email.com,,01-15-2025,Ativo
+66.0,Pedro,22,SP,user66email.com,,,
+67.0,Carlos,22,sao paulo,user67email.com,4500,,Inativo
+,Lucas,30,SP,USER68@EMAIL.COM,,,ATIVO
+69.0,Carlos,35,,USER69@EMAIL.COM,4500,15/01/2025,ativo
+70.0,João,25,São Paulo,,,data invalida,Inativo
+71.0,Maria,35,SP,USER71@EMAIL.COM,3200.5,2025-01-15,inativo
+72.0,Fernanda,35,,user72@email.com,4500,,inativo
+73.0,Lucas,vinte e oito,,USER73@EMAIL.COM,3200.5,2025-01-15,ativo
+74.0,Maria,vinte e oito,SP,,"R$ 5.000,00",,ATIVO
+75.0,Maria,22,Curitiba,USER75@EMAIL.COM,"R$ 5.000,00",data invalida,Inativo
+76.0,Lucas,vinte e oito,São Paulo,,"R$ 5.000,00",15/01/2025,
+77.0,Carlos,,Rio de Janeiro,user77@email.com,2500,,Inativo
+78.0,Pedro,vinte e oito,sao paulo,,,01-15-2025,Ativo
+79.0,Julio,30,Curitiba,USER79@EMAIL.COM,"R$ 5.000,00",2025-01-15,ATIVO
+80.0,Lucas,35,Curitiba,USER80@EMAIL.COM,,,
+81.0,Maria,30,,USER81@EMAIL.COM,3200.5,,ativo
+82.0,Beatriz,30,SP,user82@email.com,4500,data invalida,ATIVO
+83.0,Marcos,22,Rio de Janeiro,,,15/01/2025,
+84.0,Beatriz,35,,,"R$ 5.000,00",15/01/2025,Ativo
+,João,22,rio de janeiro,user85email.com,2500,2025-01-15,ativo
+86.0,Julio,,rio de janeiro,user86@email.com,3200.5,15/01/2025,inativo
+87.0,Beatriz,22,SP,,"R$ 5.000,00",data invalida,
+88.0,João,25,rio de janeiro,,3200.5,15/01/2025,Ativo
+89.0,Carlos,25,Rio de Janeiro,user89@email.com,2500,2025-01-15,ATIVO
+90.0,Maria,25,SP,user90email.com,"R$ 5.000,00",15/01/2025,ATIVO
+91.0,Marcos,35,Curitiba,,4500,2025-01-15,Ativo
+92.0,Lucas,30,,,4500,data invalida,ATIVO
+93.0,João,22,,,4500,,Ativo
+94.0,Julio,,,USER94@EMAIL.COM,4500,data invalida,
+95.0,Pedro,35,sao paulo,,2500,,ativo
+96.0,Maria,35,Curitiba,user96@email.com,3200.5,15/01/2025,Ativo
+97.0,Maria,30,São Paulo,user97@email.com,2500,15/01/2025,inativo
+98.0,Pedro,,sao paulo,user98email.com,4500,15/01/2025,inativo
+99.0,Lucas,22,,USER99@EMAIL.COM,2500,2025-01-15,ativo
+100.0,Fernanda,,sao paulo,USER100@EMAIL.COM,4500,01-15-2025,Ativo
+101.0,Ana,30,,USER101@EMAIL.COM,,01-15-2025,ATIVO
+,Carlos,35,,user102email.com,2500,,
+103.0,Ana,30,,,3200.5,,
+104.0,Pedro,,Curitiba,user104email.com,3200.5,,Inativo
+105.0,Carlos,35,Rio de Janeiro,user105email.com,,2025-01-15,
+106.0,Beatriz,vinte e oito,sao paulo,user106email.com,3200.5,15/01/2025,ativo
+107.0,Ana,25,,user107email.com,2500,,
+108.0,Ana,25,Rio de Janeiro,user108email.com,,,ativo
+109.0,Carlos,35,Curitiba,user109@email.com,,,inativo
+110.0,Maria,vinte e oito,São Paulo,user110@email.com,4500,2025-01-15,Inativo
+111.0,Lucas,25,São Paulo,,"R$ 5.000,00",2025-01-15,Ativo
+112.0,Julio,30,SP,user112@email.com,"R$ 5.000,00",data invalida,ATIVO
+113.0,Ana,25,,USER113@EMAIL.COM,,2025-01-15,ativo
+114.0,Beatriz,vinte e oito,São Paulo,USER114@EMAIL.COM,3200.5,01-15-2025,
+115.0,Fernanda,30,SP,,,01-15-2025,Inativo
+116.0,Carlos,35,,USER116@EMAIL.COM,2500,15/01/2025,Inativo
+117.0,João,,Rio de Janeiro,,,data invalida,ATIVO
+118.0,Carlos,vinte e oito,,user118@email.com,"R$ 5.000,00",2025-01-15,Ativo
+,Carlos,35,rio de janeiro,,2500,,Inativo
+120.0,Beatriz,25,,,2500,2025-01-15,inativo
+121.0,Beatriz,35,sao paulo,user121email.com,2500,01-15-2025,Ativo
+122.0,Lucas,35,rio de janeiro,user122email.com,4500,data invalida,Inativo
+123.0,Marcos,30,,user123email.com,,01-15-2025,
+124.0,Beatriz,30,SP,user124email.com,"R$ 5.000,00",data invalida,inativo
+125.0,Lucas,30,SP,user125email.com,,,
+126.0,Fernanda,35,,user126email.com,2500,15/01/2025,Ativo
+127.0,Maria,vinte e oito,sao paulo,USER127@EMAIL.COM,3200.5,,Ativo
+128.0,Maria,25,Curitiba,user128@email.com,3200.5,15/01/2025,ativo
+129.0,Fernanda,35,Curitiba,user129email.com,2500,data invalida,
+130.0,Marcos,22,SP,,"R$ 5.000,00",2025-01-15,inativo
+131.0,Maria,30,sao paulo,user131email.com,4500,data invalida,Inativo
+132.0,Carlos,vinte e oito,,user132@email.com,,,Inativo
+133.0,Lucas,35,São Paulo,USER133@EMAIL.COM,2500,01-15-2025,ativo
+134.0,Lucas,35,,,"R$ 5.000,00",,ATIVO
+135.0,Carlos,30,,user135email.com,2500,15/01/2025,
+,João,30,,user136email.com,2500,data invalida,Inativo
+137.0,Ana,22,SP,,2500,2025-01-15,ativo
+138.0,Maria,22,São Paulo,,4500,data invalida,inativo
+139.0,João,35,rio de janeiro,USER139@EMAIL.COM,"R$ 5.000,00",,
+140.0,Pedro,25,rio de janeiro,,3200.5,2025-01-15,Inativo
+141.0,Maria,25,São Paulo,USER141@EMAIL.COM,,2025-01-15,ativo
+142.0,Marcos,22,Rio de Janeiro,,,15/01/2025,Ativo
+143.0,Pedro,vinte e oito,Rio de Janeiro,,"R$ 5.000,00",,Ativo
+144.0,Maria,35,Curitiba,USER144@EMAIL.COM,"R$ 5.000,00",data invalida,
+145.0,Julio,22,rio de janeiro,,"R$ 5.000,00",,ativo
+146.0,Carlos,35,,user146@email.com,,01-15-2025,inativo
+147.0,Lucas,35,rio de janeiro,user147@email.com,,2025-01-15,inativo
+148.0,Beatriz,30,,,"R$ 5.000,00",15/01/2025,ATIVO
+149.0,João,30,Rio de Janeiro,,,data invalida,Inativo
+150.0,Lucas,30,SP,,,,ativo
+151.0,Julio,30,,user151@email.com,"R$ 5.000,00",,Inativo
+152.0,Fernanda,25,SP,USER152@EMAIL.COM,4500,,ativo
+,João,vinte e oito,sao paulo,,4500,,ativo
+154.0,Pedro,30,,,,15/01/2025,Ativo
+155.0,Carlos,35,rio de janeiro,,3200.5,15/01/2025,Ativo
+156.0,Marcos,22,sao paulo,user156@email.com,2500,2025-01-15,inativo
+157.0,Julio,30,SP,user157email.com,4500,data invalida,ativo
+158.0,Fernanda,30,,user158@email.com,3200.5,data invalida,ativo
+159.0,João,25,,USER159@EMAIL.COM,,2025-01-15,ativo
+160.0,Maria,35,Curitiba,,"R$ 5.000,00",2025-01-15,Inativo
+161.0,Julio,35,,user161email.com,2500,data invalida,
+162.0,Fernanda,vinte e oito,sao paulo,,,01-15-2025,
+163.0,Ana,vinte e oito,sao paulo,,"R$ 5.000,00",01-15-2025,ATIVO
+164.0,João,25,Rio de Janeiro,user164email.com,3200.5,15/01/2025,Inativo
+165.0,Carlos,35,rio de janeiro,,3200.5,01-15-2025,ativo
+166.0,Beatriz,25,São Paulo,,"R$ 5.000,00",data invalida,Inativo
+167.0,Beatriz,22,,,,2025-01-15,
+168.0,João,25,sao paulo,user168email.com,4500,,ATIVO
+169.0,João,22,rio de janeiro,user169email.com,4500,2025-01-15,Inativo
+,Fernanda,vinte e oito,São Paulo,user170@email.com,,,Inativo
+171.0,Fernanda,35,,user171email.com,2500,01-15-2025,Ativo
+172.0,Marcos,25,,,4500,15/01/2025,ativo
+173.0,Marcos,35,Curitiba,user173@email.com,,,ativo
+174.0,Fernanda,25,rio de janeiro,user174@email.com,3200.5,01-15-2025,ATIVO
+175.0,Carlos,30,,user175@email.com,,data invalida,inativo
+176.0,João,35,,USER176@EMAIL.COM,2500,data invalida,ATIVO
+177.0,Pedro,vinte e oito,SP,,3200.5,01-15-2025,
+178.0,Ana,22,rio de janeiro,USER178@EMAIL.COM,2500,15/01/2025,Inativo
+179.0,Maria,25,sao paulo,user179email.com,3200.5,2025-01-15,
+,Beatriz,vinte e oito,,USER0@EMAIL.COM,,01-15-2025,ATIVO
+1.0,João,35,Curitiba,user1email.com,3200.5,data invalida,Ativo
+2.0,João,,SP,user2email.com,3200.5,15/01/2025,
+3.0,Beatriz,,Curitiba,user3@email.com,,2025-01-15,inativo
+4.0,Beatriz,35,,USER4@EMAIL.COM,2500,data invalida,ATIVO
+5.0,Julio,22,rio de janeiro,,,,ativo
+6.0,Pedro,,Rio de Janeiro,user6email.com,"R$ 5.000,00",,Inativo
+7.0,Carlos,35,rio de janeiro,user7email.com,"R$ 5.000,00",01-15-2025,Inativo
+8.0,Ana,22,,,"R$ 5.000,00",15/01/2025,inativo
+9.0,Julio,35,sao paulo,,"R$ 5.000,00",01-15-2025,
+10.0,Maria,,SP,,4500,2025-01-15,
+11.0,Julio,25,São Paulo,user11email.com,3200.5,15/01/2025,
+12.0,Maria,35,sao paulo,,3200.5,,ativo
+13.0,Fernanda,25,rio de janeiro,USER13@EMAIL.COM,,15/01/2025,ATIVO
+14.0,Lucas,vinte e oito,,,2500,15/01/2025,
+15.0,Beatriz,25,rio de janeiro,,4500,15/01/2025,
+16.0,Marcos,30,São Paulo,USER16@EMAIL.COM,"R$ 5.000,00",,ativo
+,Fernanda,22,Curitiba,,4500,,Inativo
+18.0,Carlos,25,Curitiba,,3200.5,2025-01-15,
+19.0,Beatriz,vinte e oito,SP,,,01-15-2025,

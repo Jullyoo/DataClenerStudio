@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Data Cleaner Studio</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- TOAST -->
+
+    <div id="toast"
+         class="toast">
+
+    </div>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-database"></i>
+
+                <span>DataCleaner</span>
+
+            </div>
+
+            <nav>
+
+                <a href="#dashboardSection">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    Dashboard
+
+                </a>
+
+                <a href="#previewSection">
+
+                    <i class="fa-solid fa-table"></i>
+
+                    Preview
+
+                </a>
+
+                <a href="#pipelineSection">
+
+                    <i class="fa-solid fa-gears"></i>
+
+                    Pipeline
+
+                </a>
+
+                <a href="#exportSection">
+
+                    <i class="fa-solid fa-file-export"></i>
+
+                    Exportações
+
+                </a>
+
+            </nav>
+
+        </aside>
+
+        <!-- CONTEÚDO -->
+
+        <main class="content">
+
+            <!-- HEADER -->
+
+            <header class="topbar">
+
+                <h1>Data Cleaner Studio</h1>
+
+                <p>
+                    Limpeza e análise inteligente de datasets
+                </p>
+
+            </header>
+
+            <!-- UPLOAD -->
+
+            <section class="upload-section">
+
+                <label for="fileInput"
+                       class="upload-box">
+
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                    <span>
+
+                        Escolher Dataset
+
+                    </span>
+
+                </label>
+
+                <input
+                    type="file"
+                    id="fileInput"
+                    hidden>
+
+                <button
+                    class="process-btn"
+                    onclick="uploadFile()">
+
+                    <i class="fa-solid fa-play"></i>
+
+                    Processar Dataset
+
+                </button>
+
+            </section>
+
+            <!-- RESULTADO -->
+
+            <section id="results"
+                     class="success hidden">
+
+                <span id="resultMessage"></span>
+
+            </section>
+
+            <!-- DASHBOARD -->
+
+            <section id="dashboardSection">
+
+                <h2 class="section-title">
+
+                    Dashboard
+
+                </h2>
+
+                <section id="dashboard"
+                         class="dashboard-grid">
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-table"></i>
+
+                            <h3>Total de Linhas</h3>
+
+                        </div>
+
+                        <p id="totalRows">0</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-columns"></i>
+
+                            <h3>Total de Colunas</h3>
+
+                        </div>
+
+                        <p id="totalColumns">0</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-copy"></i>
+
+                            <h3>Valores Duplicados</h3>
+
+                        </div>
+
+                        <p id="duplicates">0</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-circle-exclamation"></i>
+
+                            <h3>Valores Nulos</h3>
+
+                        </div>
+
+                        <p id="nullValues">0</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-medal"></i>
+
+                            <h3>Qualidade do Dataset</h3>
+
+                        </div>
+
+                        <div class="quality-score-container">
+
+                            <p id="qualityScore">0%</p>
+
+                            <span id="qualityStatus">
+
+                                Aguardando análise
+
+                            </span>
+
+                        </div>
+
+                        <div class="quality-bar">
+
+                            <div
+                                id="qualityFill"
+                                class="quality-fill">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-check"></i>
+
+                            <h3>Completude do Arquivo</h3>
+
+                        </div>
+
+                        <p id="completeness">0%</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-fingerprint"></i>
+
+                            <h3>Valores únicos</h3>
+
+                        </div>
+
+                        <p id="uniqueness">0%</p>
+
+                    </div>
+
+                    <div class="card metric-card">
+
+                        <div class="metric-header">
+
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+
+                            <h3>E-mails válidos</h3>
+
+                        </div>
+
+                        <p id="validity">0%</p>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+            <!-- PREVIEW -->
+
+            <section id="previewSection"
+                     class="card-section">
+
+                <div class="card large-card">
+
+                    <h2>
+
+                        Preview dos Dados
+
+                    </h2>
+
+                    <div id="preview">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- PIPELINE -->
+
+            <section id="pipelineSection"
+                     class="card-section">
+
+                <div class="card large-card">
+
+                    <h2>
+
+                        Pipeline de Transformações
+
+                    </h2>
+
+                    <div id="pipeline">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- EXPORTAÇÕES -->
+
+            <section id="exportSection"
+                     class="export-section hidden">
+
+                <h2 class="section-title">
+
+                    Exportações
+
+                </h2>
+
+                <div class="export-grid">
+
+                    <a href="/download/csv"
+                       class="export-card">
+
+                        <i class="fa-solid fa-file-csv"></i>
+
+                        <span>CSV</span>
+
+                    </a>
+
+                    <a href="/download/excel"
+                       class="export-card">
+
+                        <i class="fa-solid fa-file-excel"></i>
+
+                        <span>Excel</span>
+
+                    </a>
+
+                    <a href="/download/sql"
+                       class="export-card">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <span>SQL</span>
+
+                    </a>
+
+                    <a href="/download/parquet"
+                       class="export-card">
+
+                        <i class="fa-solid fa-layer-group"></i>
+
+                        <span>Parquet</span>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/preview.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/dragdrop.js') }}"></script>
+
+</body>
+
+</html>
